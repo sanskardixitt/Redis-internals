@@ -1,0 +1,17 @@
+node_modules/
+*.tsbuildinfo
+dist/
+
+# benchmark output (keep the folder, not the runs)
+benchmarks/results/*.json
+!benchmarks/results/.gitkeep
+
+# your personal learning journal stays local unless you want to commit it
+notes/*.md
+!notes/README.md
+
+*.rdb
+*.aof
+appendonlydir/
+.DS_Store
+.env
